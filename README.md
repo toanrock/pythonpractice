@@ -1,4 +1,4 @@
 # pythonpractice
-All assignment of the Automate the boring stuff with python
-I will try to solve all the practice questions + the practice projects.
-It's time to learn Python
+This Repository will be the practice and excercise of some python books.
+Have fun!!!
+
