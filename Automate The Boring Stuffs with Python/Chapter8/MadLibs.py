@@ -1,0 +1,18 @@
+
+print('enter the adjective:')
+adj1 = input()
+print('enter the noun:')
+noun1= input()
+print('enter the verb:')
+verb=input()
+print('enter the noun:')
+noun2 =input()
+
+textfile = open('text.txt')
+textcontent = textfile.read()
+finalstring=textcontent.replace("ADJECTIVE",adj1).replace("NOUN",noun1,1).replace("VERB",verb).replace("NOUN",noun2,1)
+textfile.close()
+textfile = open('text.txt','w')
+textfile.write(finalstring)
+textfile.close()
+print(finalstring)
